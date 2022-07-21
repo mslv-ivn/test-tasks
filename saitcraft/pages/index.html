@@ -1,0 +1,267 @@
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Статьи</title>
+    <style>
+        div.news-list {
+            word-wrap: break-word;
+        }
+
+        div.news-list img.preview_picture {
+            float: left;
+            margin: 0 4px 6px 0;
+        }
+
+        .news-date-time {
+            color: #b7b7b7;
+        }
+
+        .btn.btn-circle {
+            width: 20px;
+            height: 20px;
+            padding: 0px 0px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 1.42857;
+        }
+
+        .card-text {
+            color: #7b7b7b;
+        }
+
+        .card-title {
+            padding: 0.5rem 0;
+        }
+
+        .page-link {
+            border-radius: 30px !important;
+        }
+
+        a.page-link {
+            color: black;
+            border-color: #dddddd;
+        }
+
+        a.page-link:hover {
+            border-color: #f9d116;
+        }
+
+        b.page-link {
+            color: black;
+            border-color: #f9d116;
+            background-color: #f9d116;
+        }
+
+        .page-item {
+            margin: 3px;
+        }
+
+        .nav:last-child .nav-link {
+            padding: 0.5rem 1rem 0.5rem 0;
+        }
+
+        .nav .nav-link, .nav .link-warning {
+            text-decoration: underline;
+            text-decoration-color: #f7e5d9;
+        }
+
+        .content-title {
+            font-family: BebasNeue;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .link-warning {
+            color: #dd8537;
+        }
+    </style>
+</head>
+<body>
+<div class="container pt-5">
+    <div class="row my-4">
+        <div class="col">
+            <h1 class="content-title">Статьи</h1>
+        </div>
+
+        <div class="col-auto">
+            <a href="/articles" type="button" class="btn btn-outline-secondary">Все <span
+                    class="btn btn-warning btn-circle">21</span></a>
+
+            <a href="?tag=Каникулы" type="button" class="btn btn-outline-secondary">Каникулы <span
+                    class="btn btn-warning btn-circle">2</span></a>
+            <a href="?tag=Путешествия" type="button" class="btn btn-outline-secondary">Путешествия <span
+                    class="btn btn-warning btn-circle">2</span></a>
+            <a href="?tag=Парк Камней" type="button" class="btn btn-outline-secondary">Парк Камней <span
+                    class="btn btn-warning btn-circle">6</span></a>
+            <a href="?tag=Храм истины" type="button" class="btn btn-outline-secondary">Храм истины <span
+                    class="btn btn-warning btn-circle">3</span></a>
+
+            <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-outline-warning dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                    Еще
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a href="?tag=Фото" class="dropdown-item">Фото <span class="btn btn-warning btn-circle">2</span></a>
+                    </li>
+                    <li><a href="?tag=Таиланд" class="dropdown-item">Таиланд <span
+                            class="btn btn-warning btn-circle">1</span></a></li>
+                    <li><a href="?tag=Велопробеги" class="dropdown-item">Велопробеги <span
+                            class="btn btn-warning btn-circle">1</span></a></li>
+                    <li><a href="?tag=Испания" class="dropdown-item">Испания <span
+                            class="btn btn-warning btn-circle">4</span></a></li>
+                    <li><a href="?tag=Италия" class="dropdown-item">Италия <span
+                            class="btn btn-warning btn-circle">4</span></a></li>
+                    <li><a href="?tag=Бергамо" class="dropdown-item">Бергамо <span
+                            class="btn btn-warning btn-circle">4</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="news-list row">
+        <div class="col-md-6">
+            <div class="news-item card mb-4" id="bx_3218110189_34">
+                <a href="/articles/detail.php?ID=34"><img class="preview_picture card-img-top" border="0"
+                                                          src="images/b5ajan36u12x0dpfinuvi3ttdcgqbk44.jpg"
+                                                          alt="Прототип нового сервиса — это как печальный плач оппозиции"
+                                                          title="Прототип нового сервиса — это как печальный плач оппозиции"
+                                                          style="float:left"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Прототип нового сервиса — это как печальный плач оппозиции</h5>
+                    <p class="card-text">Не следует, однако, забывать, что базовый вектор развития позволяет оценить
+                        значение приоретизации разума над эмоциями. Равным образом, перспективное планирование создаёт
+                        предпосылки для дальнейших направлений развития.</p>
+                    <div style="clear:both"></div>
+                    <nav class="nav">
+                        <a href="?tag=Бергамо" class="nav-link link-warning">Бергамо</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="news-item card mb-4" id="bx_3218110189_33">
+                <a href="/articles/detail.php?ID=33"><img class="preview_picture card-img-top" border="0"
+                                                          src="images/apyhdrued3yly850f08kyztjbw4g0g3g.jpg"
+                                                          alt="Благородные стремления не спасут: помыслы поколения чисты"
+                                                          title="Благородные стремления не спасут: помыслы поколения чисты"
+                                                          style="float:left"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Благородные стремления не спасут: помыслы поколения чисты</h5>
+                    <p class="card-text">Разнообразный и богатый опыт говорит нам, что экономическая повестка
+                        сегодняшнего дня влечет за собой процесс внедрения и модернизации укрепления моральных
+                        ценностей.</p>
+                    <div style="clear:both"></div>
+                    <nav class="nav">
+                        <a href="?tag=Храм истины" class="nav-link link-warning">Храм истины</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="news-item card mb-4" id="bx_3218110189_32">
+                <a href="/articles/detail.php?ID=32"><img class="preview_picture card-img-top" border="0"
+                                                          src="images/3wwhzv71qnz839y2x8bal785khnorlfu.jpg"
+                                                          alt="Очевидцы сообщают, что слышали треск разлетающихся скреп"
+                                                          title="Очевидцы сообщают, что слышали треск разлетающихся скреп"
+                                                          style="float:left"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Очевидцы сообщают, что слышали треск разлетающихся скреп</h5>
+                    <p class="card-text">Внезапно, сторонники тоталитаризма в науке формируют глобальную экономическую
+                        сеть и при этом — функционально разнесены на независимые элементы.</p>
+                    <div style="clear:both"></div>
+                    <nav class="nav">
+                        <a href="?tag=Парк Камней" class="nav-link link-warning">Парк Камней</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="news-item card mb-4" id="bx_3218110189_31">
+                <a href="/articles/detail.php?ID=31"><img class="preview_picture card-img-top" border="0"
+                                                          src="images/dv3ffnkxzw9rhzjsp016j1cvuyso24ac.jpg"
+                                                          alt="Франция намерена исследовать, почему помыслы поколения чисты"
+                                                          title="Франция намерена исследовать, почему помыслы поколения чисты"
+                                                          style="float:left"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Франция намерена исследовать, почему помыслы поколения чисты</h5>
+                    <p class="card-text">Но сделанные на базе интернет-аналитики выводы представляют собой не что иное,
+                        как квинтэссенцию победы маркетинга над разумом и должны быть в равной степени предоставлены
+                        сами себе.</p>
+                    <div style="clear:both"></div>
+                    <nav class="nav">
+                        <a href="?tag=Испания" class="nav-link link-warning">Испания</a>
+                        <a href="?tag=Италия" class="nav-link link-warning">Италия</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="news-item card mb-4" id="bx_3218110189_30">
+                <a href="/articles/detail.php?ID=30"><img class="preview_picture card-img-top" border="0"
+                                                          src="images/8imelimcuz963iwat9wokowpflntumzi.jpg"
+                                                          alt="Франция намерена исследовать, почему помыслы поколения чисты"
+                                                          title="Франция намерена исследовать, почему помыслы поколения чисты"
+                                                          style="float:left"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Франция намерена исследовать, почему помыслы поколения чисты</h5>
+                    <p class="card-text">Но сделанные на базе интернет-аналитики выводы представляют собой не что иное,
+                        как квинтэссенцию победы маркетинга над разумом и должны быть в равной степени предоставлены
+                        сами себе.</p>
+                    <div style="clear:both"></div>
+                    <nav class="nav">
+                        <a href="?tag=Испания" class="nav-link link-warning">Испания</a>
+                        <a href="?tag=Италия" class="nav-link link-warning">Италия</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="news-item card mb-4" id="bx_3218110189_29">
+                <a href="/articles/detail.php?ID=29"><img class="preview_picture card-img-top" border="0"
+                                                          src="images/0jfcncmyqhiaiotahv9myymemdjz1fe5.jpg"
+                                                          alt="Давайте разбираться: склады ломятся от зерна"
+                                                          title="Давайте разбираться: склады ломятся от зерна"
+                                                          style="float:left"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Давайте разбираться: склады ломятся от зерна</h5>
+                    <p class="card-text">Но перспективное планирование способствует повышению качества приоретизации
+                        разума над эмоциями.</p>
+                    <div style="clear:both"></div>
+                    <nav class="nav">
+                        <a href="?tag=Парк Камней" class="nav-link link-warning">Парк Камней</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <nav class="d-flex justify-content-center w-100" aria-label="Page navigation">
+            <ul class="pagination">
+
+
+                <li class="page-item"><b class="page-link">1</b></li>
+
+                <li class="page-item"><a class="page-link" href="/articles/?PAGEN_1=2">2</a>
+                </li>
+
+                <li class="page-item"><a class="page-link" href="/articles/?PAGEN_1=3">3</a>
+                </li>
+
+                <li class="page-item"><a class="page-link" href="/articles/?PAGEN_1=4">4</a>
+                </li>
+
+                <li class="page-item"><a class="page-link" href="/articles/?PAGEN_1=2">»</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>
